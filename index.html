@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="level-title">Press A key to start</h1>
+    <button class="rules-button">Show Rules</button>
+    <div id="rules" class="rules">
+        <p>Press any key to start. Follow which button made sound and click on the button. Each time you have to start clicking from your first button and follow the next one, so you have to remember the sequence.</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div type="button" id="green" class="btn green">
+
+            </div>
+            <div type="button" id="red" class="btn red">
+
+            </div>            
+        </div>
+        <div class="row">
+            <div type="button" id="yellow" class="btn yellow">
+
+            </div>
+            <div type="button" id="blue" class="btn blue">
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
